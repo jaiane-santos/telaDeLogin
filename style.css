@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200&display=swap');
+
 body {
     margin: 0%;
+    font-size: 'Noto Sans', sans-serif;
 }
 
 .main-login{
@@ -21,7 +24,12 @@ body {
 }
 
 .left-login > h1{
+    font-size: 3vw;
     color:rgb(95, 228, 161)
+}
+
+.image{
+   width: 35vw;
 }
 
 .rigth-login{
@@ -51,6 +59,7 @@ body {
 }
 
 .textfield{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items:flex-start;
@@ -93,5 +102,15 @@ body {
     letter-spacing: 3px;
     color:#2a2146f1;
     cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #000000f3;
+
+}
+
+@media only screen and(max-width:950px){
     
+}
+@media only screen and(max-width: 600px){
+    .card-login{
+        flex-direction: column;
+    }
 }
