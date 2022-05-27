@@ -17,4 +17,3 @@ git clone https://github.com/jaiane-santos/telaDeLogin.git
   #### Github - @Jaiane-santos
   #### Email - jaiane.dossantos.andrade@gmail.com
 
-Made with 💙 by Jaiane Santos 👩‍💻
